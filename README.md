@@ -2,7 +2,7 @@
 
 ## Now I am learning Rust.
 
-## I am following from https://doc.rust-lang.org/book/
+## I am following https://doc.rust-lang.org/book/
 
 **Day 1**
 
