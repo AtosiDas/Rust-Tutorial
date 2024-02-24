@@ -18,7 +18,7 @@ Here's what I've accomplished on Day 1:
 
 Here's a glimpse of what I accomplished Day 2:
 
-1️⃣A hands-on way to introduce you to many new Rust concepts: let, match, functions, the use of external crates, and more. I am practicing the fundamentals.
+1️⃣ A hands-on way to introduce you to many new Rust concepts: let, match, functions, the use of external crates, and more. I am practicing the fundamentals.
 
 2️⃣ Implement a classic beginner programming problem: a guessing game. 
 
@@ -29,5 +29,7 @@ Here's a glimpse of what I accomplished Day 2:
 Today was all about diving deep into variables, understanding mutability, and exploring various data types including integers, floats, booleans, and characters.
 
 Today I learned:
+
 1️⃣ Mastering Variables & Mutability: I delved into the concept of variables in Rust, exploring how to declare them, assign values, and manipulate data effectively.
+
 2️⃣ Exploring Data Types: Rust offers a rich set of data types like Integers, Floats, Booleans, and Characters. 
