@@ -23,3 +23,11 @@ Here's a glimpse of what I accomplished Day 2:
 2️⃣ Implement a classic beginner programming problem: a guessing game. 
 
 **Details about the game:** the program will generate a random integer between 1 and 100. It will then prompt the player to enter a guess. After a guess is entered, the program will indicate whether the guess is too low or too high. If the guess is correct, the game will print a congratulatory message and exit.
+
+**Day 3**
+
+Today was all about diving deep into variables, understanding mutability, and exploring various data types including integers, floats, booleans, and characters.
+
+Today I learned:
+1️⃣ Mastering Variables & Mutability: I delved into the concept of variables in Rust, exploring how to declare them, assign values, and manipulate data effectively.
+2️⃣ Exploring Data Types: Rust offers a rich set of data types like Integers, Floats, Booleans, and Characters. 
