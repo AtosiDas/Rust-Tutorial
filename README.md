@@ -33,3 +33,11 @@ Today I learned:
 1️⃣ Mastering Variables & Mutability: I delved into the concept of variables in Rust, exploring how to declare them, assign values, and manipulate data effectively.
 
 2️⃣ Exploring Data Types: Rust offers a rich set of data types like Integers, Floats, Booleans, and Characters. 
+
+**Day 4**
+
+Here's a rundown of what I covered:
+
+1️⃣ Unlocking Compound Types: I dedicated time to understanding these compound types, exploring their syntax.
+
+2️⃣ Mastering Functions: Also I know about the functions, gain insights into parameter passing, return values.
