@@ -31,7 +31,7 @@ In the case of a u8, the value 256 becomes 0, the value 257 becomes 1, and so on
 Rust’s floating-point types are f32 and f64, which are 32 bits and 64 bits in size, respectively.*/
 
 //The default type is f64 and all floating-point types are signed.
-
+use std::io;
 fn main() {
     let x = 2.0; // f64
 
@@ -60,6 +60,47 @@ fn main() {
     let c = 'z'; //char literals with single quotes
     let z: char = 'ℤ'; // with explicit type annotation
     let heart_eyed_cat = '😻';
+
+    let tup: (i32, f64, u8) = (500, 6.4, 1); //tuples
+    //let tup = (500,6.4,1);
+    let (x, y, z) = tup; //Destucturing because it breaks the single tuple into three parts. 
+
+    println!("The value of y is: {y}");
+
+    let tup1: (i32, f64, u8) = (500, 6.4, 1);
+
+    let five_hundred = tup1.0;
+
+    let six_point_four = tup1.1;
+
+    let one = tup1.2;
+
+    let a = [1, 2, 3, 4, 5]; //array
+    
+    let first = a[0];
+    let second = a[1];
+    let b: [i32; 5] = [1, 2, 3, 4, 5];  //i32 is the type of each element and 5 is the length of the array
+    let a1 = [3; 5];
+    let a2 = [3, 3, 3, 3, 3]; // The arrays a1 and a2 are same.
+
+    let arr = [1, 2, 3, 4, 5];
+
+    println!("Please enter an array index.");
+
+    let mut index = String::new();
+
+    io::stdin()
+        .read_line(&mut index)
+        .expect("Failed to read line");
+
+    let index: usize = index
+        .trim()
+        .parse()
+        .expect("Index entered was not a number");
+
+    let element = a[index];
+
+    println!("The value of the element at index {index} is: {element}");
 }
 //The f32 type is a single-precision float, and f64 has double precision.
 
@@ -75,3 +116,22 @@ fn main() {
 
 /*Rust’s char type is four bytes in size and represents a Unicode Scalar Value, which means it can represent a lot more than just ASCII.*/
 /*However, a “character” isn’t really a concept in Unicode, so your human intuition for what a “character” is may not match up with what a char is in Rust.*/
+
+//<------------------Compound Types------------>
+//Compound types can group multiple values into one type. 
+//Rust has two primitive compound types: tuples and arrays.
+
+/* A tuple is a general way of grouping together a number of values with a variety of types into one compound type. 
+Tuples have a fixed length: once declared, they cannot grow or shrink in size.*/
+
+//The tuple without any values has a special name, unit. 
+/*This value and its corresponding type are both written () and represent an empty value or an empty return type. 
+Expressions implicitly return the unit value if they don’t return any other value.*/
+
+
+//<-------------Array type------------->
+/*Another way to have a collection of multiple values is with an array. 
+Every element of an array must have the same type. Arrays in Rust have a fixed length.*/
+
+/*Arrays are useful when we want our data allocated on the stack rather than the heap or when we want to ensure us always have a fixed number of elements.*/ 
+/*An array isn’t as flexible as the vector type, though. A vector is a similar collection type provided by the standard library that is allowed to grow or shrink in size.*/
