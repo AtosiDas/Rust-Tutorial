@@ -41,3 +41,11 @@ Here's a rundown of what I covered:
 1️⃣ Unlocking Compound Types: I dedicated time to understanding these compound types, exploring their syntax.
 
 2️⃣ Mastering Functions: Also I know about the functions, gain insights into parameter passing, return values.
+
+**Day 5**
+
+Today marks a significant milestone in my coding journey! 
+
+1️⃣ Explore Control Flow: Learn about if - else statement, and various types of loops.
+
+2️⃣ Solve exercies: There are 3 problems in the last of chapter 3. Try to solve these.
