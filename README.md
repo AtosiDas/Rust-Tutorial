@@ -49,3 +49,18 @@ Today marks a significant milestone in my coding journey!
 1️⃣ Explore Control Flow: Learn about if - else statement, and various types of loops.
 
 2️⃣ Solve exercies: There are 3 problems in the last of chapter 3. Try to solve these.
+
+**Day 6**
+
+Today marks a significant milestone in my coding journey! 🎉
+
+Here's what I accomplished:
+
+1️⃣ Explored Ownership: Learned about the Ownership variables, variable scope, String type, and memory and allocation. 💻✨
+
+**Day 7**
+
+Today marks a significant milestone in my coding journey! 🎉
+
+1️⃣ Today, I delved into Rust's ownership, borrowing, and slices, key concepts ensuring memory safety. Rust grants control over memory usage, automating cleanup via ownership, and eliminating manual memory management hassles.
+
