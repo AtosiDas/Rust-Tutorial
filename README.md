@@ -64,3 +64,11 @@ Today marks a significant milestone in my coding journey! 🎉
 
 1️⃣ Today, I delved into Rust's ownership, borrowing, and slices, key concepts ensuring memory safety. Rust grants control over memory usage, automating cleanup via ownership, and eliminating manual memory management hassles.
 
+**Day 8**
+
+Today, I delved into the concept of structs in Rust.
+
+1️⃣ Structs Exploration: Explored the fundamentals of structs in Rust, learning how they organize related data fields.
+
+2️⃣ Practical Application: Implemented my understanding by defining a struct representing a rectangle and creating a method to calculate its area based on width and height.
+
