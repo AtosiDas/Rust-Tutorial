@@ -80,4 +80,4 @@ Today marks a significant milestone in my coding journey! 🎉
 
 2️⃣ Option Enum: Delved into the Option enum, a particularly useful type for handling situations where a value may be present or absent, reducing the risk of null pointer errors.
 
-3️⃣ Practical Example: Applied my knowledge by creating an enum representing different types of fruits, and used the Option enum to model the availability of each fruit in a hypothetical inventory system.
+3️⃣ Practical Example: Applied my knowledge by creating an enum representing different types of ip addresses.
