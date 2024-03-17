@@ -72,3 +72,12 @@ Today, I delved into the concept of structs in Rust.
 
 2️⃣ Practical Application: Implemented my understanding by defining a struct representing a rectangle and creating a method to calculate its area based on width and height.
 
+**Day 9**
+
+Today marks a significant milestone in my coding journey! 🎉
+
+1️⃣ Enums Exploration: Explored enums in Rust, understanding how they enable the creation of custom types with a finite set of possible values.
+
+2️⃣ Option Enum: Delved into the Option enum, a particularly useful type for handling situations where a value may be present or absent, reducing the risk of null pointer errors.
+
+3️⃣ Practical Example: Applied my knowledge by creating an enum representing different types of fruits, and used the Option enum to model the availability of each fruit in a hypothetical inventory system.
